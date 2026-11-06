@@ -1,0 +1,48 @@
+from .candidate import (
+    ValidationStatus,
+    PersonalInfo,
+    EducationItem,
+    SkillsCategorized,
+    ExperienceItem,
+    ProjectItem,
+    InternshipItem,
+    CertificationItem,
+    CandidateProfile,
+    ValidationResult,
+    ResumeUploadResponse,
+)
+from .role import (
+    ExperienceLevel,
+    DetailedProfileValidation,
+    CareerRole,
+    RoleRecommendation,
+    RecommendationsResponse,
+    ConfirmedRoleItem,
+    SaveConfirmedRolesRequest,
+    ConfirmedRolesResponse,
+    CustomRoleRequest,
+)
+
+__all__ = [
+    "ValidationStatus",
+    "PersonalInfo",
+    "EducationItem",
+    "SkillsCategorized",
+    "ExperienceItem",
+    "ProjectItem",
+    "InternshipItem",
+    "CertificationItem",
+    "CandidateProfile",
+    "ValidationResult",
+    "ResumeUploadResponse",
+    "ExperienceLevel",
+    "DetailedProfileValidation",
+    "CareerRole",
+    "RoleRecommendation",
+    "RecommendationsResponse",
+    "ConfirmedRoleItem",
+    "SaveConfirmedRolesRequest",
+    "ConfirmedRolesResponse",
+    "CustomRoleRequest",
+]
+

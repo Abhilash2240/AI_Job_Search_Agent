@@ -1,0 +1,657 @@
+{
+  "audit_timestamp": {},
+  "summary": {
+    "total_sampled": 10,
+    "greenhouse_count": 5,
+    "lever_count": 5,
+    "all_checks_passed": true,
+    "idempotency_verified": true,
+    "db_integrity": {
+      "candidates": 15,
+      "discovered_jobs": 22,
+      "normalized_jobs": 10
+    }
+  },
+  "job_details": [
+    {
+      "id": 1,
+      "provider": "greenhouse",
+      "title": "Relationship Manager",
+      "canonical_title": "Relationship Manager",
+      "seniority": "MID_LEVEL",
+      "company": "Groww",
+      "workplace_type": "UNSPECIFIED",
+      "location": {
+        "raw": "India",
+        "city": null,
+        "state": null,
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": 2.0,
+        "max_years": 7.0
+      },
+      "skills_count": {
+        "required": 2,
+        "preferred": 0
+      },
+      "sample_skills": [
+        null,
+        null
+      ],
+      "education": {
+        "degrees": [
+          "B.E.",
+          "Master's Degree"
+        ],
+        "fields": [
+          "Information Technology"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "COMPLETE",
+      "extraction_confidence": 0.9,
+      "missing_fields": [
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 2,
+      "provider": "greenhouse",
+      "title": "Product Research Specialist (W from Groww)",
+      "canonical_title": "Product Research Specialist (W From Groww)",
+      "seniority": "MID_LEVEL",
+      "company": "Groww",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "Bengaluru-VTP, India",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": 2.0,
+        "max_years": 8.0
+      },
+      "skills_count": {
+        "required": 2,
+        "preferred": 0
+      },
+      "sample_skills": [
+        null,
+        null
+      ],
+      "education": {
+        "degrees": [
+          "B.E."
+        ],
+        "fields": [
+          "Information Technology"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "COMPLETE",
+      "extraction_confidence": 0.9,
+      "missing_fields": [
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 3,
+      "provider": "greenhouse",
+      "title": "Procurement Specialist",
+      "canonical_title": "Procurement Specialist",
+      "seniority": "MID_LEVEL",
+      "company": "Groww",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "Bengaluru-VTP, India",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": 2.0,
+        "max_years": null
+      },
+      "skills_count": {
+        "required": 2,
+        "preferred": 0
+      },
+      "sample_skills": [
+        null,
+        null
+      ],
+      "education": {
+        "degrees": [
+          "B.E.",
+          "Bachelor's Degree"
+        ],
+        "fields": [
+          "Information Technology"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "COMPLETE",
+      "extraction_confidence": 0.9,
+      "missing_fields": [
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 4,
+      "provider": "greenhouse",
+      "title": "Portfolio Specialist - Wealth",
+      "canonical_title": "Portfolio Specialist - Wealth",
+      "seniority": "MID_LEVEL",
+      "company": "Groww",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "Bengaluru-VTP, India",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": 3.0,
+        "max_years": null
+      },
+      "skills_count": {
+        "required": 2,
+        "preferred": 0
+      },
+      "sample_skills": [
+        null,
+        null
+      ],
+      "education": {
+        "degrees": [
+          "B.E."
+        ],
+        "fields": [
+          "Information Technology"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "COMPLETE",
+      "extraction_confidence": 0.9,
+      "missing_fields": [
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 5,
+      "provider": "greenhouse",
+      "title": "Manager - Compliance (PMS)",
+      "canonical_title": "Manager - Compliance (Pms)",
+      "seniority": "MID_LEVEL",
+      "company": "Groww",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "Bengaluru-VTP, India",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": 4.0,
+        "max_years": 5.0
+      },
+      "skills_count": {
+        "required": 2,
+        "preferred": 0
+      },
+      "sample_skills": [
+        null,
+        null
+      ],
+      "education": {
+        "degrees": [],
+        "fields": [
+          "Computer Science"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "COMPLETE",
+      "extraction_confidence": 0.85,
+      "missing_fields": [
+        "Explicit Education Requirements",
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 6,
+      "provider": "lever",
+      "title": "threat detection engineer",
+      "canonical_title": "Threat Detection Engineer",
+      "seniority": "MID_LEVEL",
+      "company": "CRED",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "bengaluru",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": 2.0,
+        "max_years": 6.0
+      },
+      "skills_count": {
+        "required": 6,
+        "preferred": 0
+      },
+      "sample_skills": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "education": {
+        "degrees": [
+          "B.E."
+        ],
+        "fields": [
+          "Information Technology"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "COMPLETE",
+      "extraction_confidence": 0.9,
+      "missing_fields": [
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 7,
+      "provider": "lever",
+      "title": "regional collection manager bangalore - flows",
+      "canonical_title": "Regional Collection Manager Bangalore - Flows",
+      "seniority": "SENIOR",
+      "company": "CRED",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "bengaluru",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": 10.0,
+        "max_years": null
+      },
+      "skills_count": {
+        "required": 0,
+        "preferred": 0
+      },
+      "sample_skills": [],
+      "education": {
+        "degrees": [],
+        "fields": []
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "COMPLETE",
+      "extraction_confidence": 0.65,
+      "missing_fields": [
+        "Technical Skills",
+        "Explicit Education Requirements",
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 8,
+      "provider": "lever",
+      "title": "long form content writer/editor",
+      "canonical_title": "Long Form Content Writer/Editor",
+      "seniority": "UNKNOWN",
+      "company": "CRED",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "bengaluru",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": null,
+        "max_years": null
+      },
+      "skills_count": {
+        "required": 0,
+        "preferred": 0
+      },
+      "sample_skills": [],
+      "education": {
+        "degrees": [],
+        "fields": [
+          "Information Technology"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "PARTIAL",
+      "extraction_confidence": 0.55,
+      "missing_fields": [
+        "Technical Skills",
+        "Explicit Experience Requirements",
+        "Explicit Education Requirements",
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "no_fabricated_fresher": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 9,
+      "provider": "lever",
+      "title": "lead \u2013 on deck payments",
+      "canonical_title": "On Deck Payments",
+      "seniority": "LEAD_STAFF",
+      "company": "CRED",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "bengaluru",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": null,
+        "max_years": null
+      },
+      "skills_count": {
+        "required": 3,
+        "preferred": 0
+      },
+      "sample_skills": [
+        null,
+        null,
+        null
+      ],
+      "education": {
+        "degrees": [
+          "B.E."
+        ],
+        "fields": [
+          "Information Technology"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "COMPLETE",
+      "extraction_confidence": 0.8,
+      "missing_fields": [
+        "Explicit Experience Requirements",
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "no_fabricated_fresher": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    },
+    {
+      "id": 10,
+      "provider": "lever",
+      "title": "issuance growth lead",
+      "canonical_title": "Issuance Growth",
+      "seniority": "LEAD_STAFF",
+      "company": "CRED",
+      "workplace_type": "ON_SITE",
+      "location": {
+        "raw": "bengaluru",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "is_remote": false
+      },
+      "employment_type": "FULL_TIME",
+      "experience": {
+        "min_years": null,
+        "max_years": null
+      },
+      "skills_count": {
+        "required": 0,
+        "preferred": 0
+      },
+      "sample_skills": [],
+      "education": {
+        "degrees": [],
+        "fields": [
+          "Information Technology"
+        ]
+      },
+      "salary": {
+        "min": null,
+        "max": null,
+        "currency": null
+      },
+      "extraction_status": "PARTIAL",
+      "extraction_confidence": 0.55,
+      "missing_fields": [
+        "Technical Skills",
+        "Explicit Experience Requirements",
+        "Explicit Education Requirements",
+        "Published Salary"
+      ],
+      "validation_checks": {
+        "original_title_preserved": true,
+        "canonical_title_assigned": true,
+        "seniority_assigned": true,
+        "company_assigned": true,
+        "company_id_matched": true,
+        "description_present": true,
+        "no_raw_html_in_description": true,
+        "skills_evidence_verified": true,
+        "no_skill_solely_from_title": true,
+        "valid_experience_min": true,
+        "no_fabricated_fresher": true,
+        "salary_not_hallucinated": true,
+        "confidence_not_blindly_1_0": true,
+        "valid_status": true,
+        "complete_satisfies_mandatory": true
+      },
+      "all_passed": true
+    }
+  ]
+}

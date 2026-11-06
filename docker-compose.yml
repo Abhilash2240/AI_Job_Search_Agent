@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: ai_job_search_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PROJECT_NAME=AI Job Search Agent
+      - ENVIRONMENT=production
+      - BACKEND_HOST=0.0.0.0
+      - BACKEND_PORT=8000
+      - DATABASE_URL=sqlite+aiosqlite:///backend/ai_job_search.db
+      - SBERT_MODEL_PATH=backend/models/trained_sbert
+      - ENABLE_AUTOMATED_OUTREACH=false
+      - REQUIRE_EXPLICIT_OUTREACH_AUTHORIZATION=true
+    volumes:
+      - ./backend/ai_job_search.db:/app/backend/ai_job_search.db
+      - ./backend/models/trained_sbert:/app/backend/models/trained_sbert
+    networks:
+      - ai_job_search_net
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: ai_job_search_frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - ai_job_search_net
+
+networks:
+  ai_job_search_net:
+    driver: bridge
+
